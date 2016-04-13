@@ -1,0 +1,27 @@
+/* Section 2.4.
+This program simulates an ATM screen input and output.  It requests your
+PIN # and the amount you wish to withdraw.  It then echo prints the amount
+you entered, and tells you to take your money and ATM card.*/
+   
+using namespace std;
+#include<iostream>
+int main()
+{
+    int pin;
+    double money;
+    cout<<"Please enter your PIN number, then press 'Enter':  ";
+    cin>>pin;
+    
+    cout<<"\n\nEnter amount to withdraw, and press 'Enter':  $";
+    cin>>money;
+    
+    cout<<"\nThank you.  Your request for $"<<money<<" has been approved\n\n";
+    cout<<"Please take your money and your ATM card"<<endl<<endl;
+    system("pause");
+    return 0;
+}
+
+
+
+
+
